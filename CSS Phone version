@@ -1,0 +1,728 @@
+#greeting img.icon {
+  display: none;
+}
+
+.comment div.icon {
+  box-shadow: none !important;
+  border: 2px solid #ddca9f;
+}
+
+#outer,
+#header .menu,
+ol.index.group,
+.listbox .index {
+  background: #40210f;
+}
+
+body,
+input,
+textarea,
+select,
+button {
+  color: #ffffff !important;
+  font-family: unset !important;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+textarea,
+select {
+  background: rgba(0, 0, 0, 0.2);
+  color: #ffffff !important;
+  border: 1px solid #000;
+}
+
+textarea {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+#header {
+  background-image: url("https://64.media.tumblr.com/3bb6d46d0af162d228908c940d06e6ad/5600446e2bccad52-ac/s2048x3072/8e050f4bf8ac9546f0b7ae877112739e5d4f21d9.png");
+  position: relative;
+  z-index: 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 13em;
+}
+
+#header::after {
+  content: "";
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 350px;
+  height: 350px;
+  background: url("https://64.media.tumblr.com/bc85f75d9436cad93dc008c7afdad539/3997f888423570d1-fe/s500x750/50d533fbb07fa64bfa29b186ba34082efd56cf0e.png") no-repeat center;
+  background-position-x: right;
+  background-position-y: top;
+  background-size: contain;
+  z-index: -1;
+}
+
+#header .heading,
+#header .menu,
+#greeting {
+  position: relative;
+  z-index: 1;
+}
+
+#header .logo {
+  display: inline-block;
+}
+
+#header .heading sup {
+  display: inline-block;
+}
+
+#header h1.heading span {
+  display: inline;
+}
+
+#header h1.heading a::before {
+  display: none;
+}
+
+#header .primary {
+  background: none;
+  box-shadow: none;
+}
+
+#greeting .menu {
+  width: 12em !important;
+}
+
+#header .menu {
+  width: 20em;
+}
+
+#header .menu,
+#header a.dropdown-toggle,
+#greeting .user > li:nth-of-type(3) a,
+#footer .heading,
+#footer a,
+#footer li {
+  color: #ddca9f;
+  font-variant: small-caps;
+  font-weight: bold;
+}
+
+#footer a,
+#footer button {
+  color: #ddca9f;
+}
+
+#header .menu li a {
+  color: #ddca9f !important;
+  border: none !important;
+  font-weight: normal !important;
+}
+
+#header .menu li {
+  border-bottom: none;
+}
+
+.home .primary {
+  margin: 1em 0.5em 1.5em;
+  min-height: 100px;
+}
+
+.primary .icon {
+  position: absolute;
+  margin-left: 0.5em;
+  top: 0;
+}
+
+.home .header h2 {
+  text-align: right;
+  border-bottom: 2px solid;
+  display: block;
+  margin-left: 150px;
+}
+
+#header a,
+#header a:visited,
+#header .primary .open a,
+#header .primary .dropdown:hover a,
+#header .primary .dropdown a:focus {
+  color: #c8b79c;
+}
+
+#header .heading a {
+  color: #af9a86;
+  font-size: 1.714em;
+  line-height: 1.75em;
+}
+
+#header .actions a:hover,
+#header .actions a:focus,
+#header .dropdown:hover a,
+#header .open a {
+  background: none;
+  color: #ddca9f;
+}
+
+html body .home .primary.header.module .icon a::after {
+  display: none !important;
+}
+
+.splash .module h3 {
+  border-bottom: 1px solid #c8c8c8;
+  color: #dcd1b2;
+  font-size: 1.714em;
+}
+
+.splash .news blockquote p:first-child {
+  padding-left: 105px;
+  background: url("https://64.media.tumblr.com/ddc7f30892d8afe85d3cb8e6b440039d/3997f888423570d1-f0/s500x750/ee4ab392139c833db27afd5e125daeb67552029e.png");
+  background-size: 100px 80px;
+  background-position-x: left;
+  background-position-y: top;
+  background-repeat: no-repeat;
+}
+
+.social.module p {
+  padding-left: 83px;
+  background: url("https://64.media.tumblr.com/bd6c94ac99326ba7e44d50790b5f2a27/ba16bea99a8afe05-74/s1280x1920/4b90390015b4fdd891a9ec9d8b15b49d2729ef6d.png");
+  background-size: 65px 65px;
+  background-position-x: left;
+  background-position-y: top;
+  background-repeat: no-repeat;
+}
+
+.comment h4.byline {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.comment .userstuff {
+  padding-right: 67px;
+  padding-bottom: 50px;
+  background: url("https://64.media.tumblr.com/aaa7e42561becb7b981c525bc961b33a/2b2980516d735399-83/s2048x3072/3505ec1dce68e8c8ab800fcf9163f3a36a705cbc.png");
+  background-position-x: right;
+  background-position-y: top;
+  background-repeat: no-repeat;
+  background-size: 74px 100px;
+}
+
+li.comment {
+  background: transparent;
+  border: 1px solid #000;
+}
+
+.notice,
+.comment_notice,
+.kudos_notice,
+ul.notes,
+.caution,
+.error,
+.comment_error,
+.kudos_error,
+.alert.flash,
+.LV_invalid {
+  border: 1px solid #000;
+  background: rgba(0, 0, 0, .30);
+  box-shadow: none;
+}
+
+.notice,
+.comment_notice,
+.kudos_notice,
+ul.notes,
+.caution,
+.error,
+.comment_error,
+.kudos_error,
+.alert.flash {
+  margin: 0em auto;
+  padding: 0em 0em;
+}
+
+form .notice,
+form ul.notes {
+  box-shadow: none !important;
+}
+
+.actions a:visited,
+.action:visited,
+.action a:link,
+.action a:visited {
+  color: #a89a86;
+}
+
+.actions a,
+.actions a:link,
+.action,
+.action:link,
+.actions button,
+.actions input,
+input[type="submit"],
+button,
+.current,
+.actions label {
+  color: #ddca9f;
+}
+
+.actions a,
+.actions a:link,
+.action,
+.action:link,
+.actions button,
+.actions input,
+input[type="submit"],
+button,
+.actions label {
+  background: linear-gradient(180deg,rgba(37, 24, 13, 1) 0%, rgba(0, 0, 0, 1) 100%);
+  border-style: solid;
+  border-width: 1px;
+  border-color: #c8b79c;
+}
+
+a,
+a:link,
+a:visited:hover {
+  color: #a89a86;
+}
+
+a:visited {
+  color: #a89a86;
+}
+
+.actions a:hover,
+.actions button:hover,
+.actions input:hover,
+.actions a:focus,
+.actions button:focus,
+.actions input:focus,
+label.action:hover,
+.action:hover,
+.action:focus {
+  background: #c8b79c;
+  border-color: #000;
+  color: #000;
+  box-shadow: none;
+}
+
+.actions a:active,
+.current,
+a.current,
+a:link.current,
+#dashboard .current,
+.current a:visited {
+  background: rgba(221, 202, 159, .15);
+  box-shadow: none;
+  border: 1px solid #c8b79c;
+}
+
+#workskin p:first-child:first-letter,
+li.blurb .summary p:first-child:first-letter {
+  color: #ddca9f;
+  float: left;
+  font-family: Georgia, serif;
+  font-size: 70px;
+  line-height: 60px;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
+}
+
+#workskin {
+  border: none;
+}
+
+div.preface {
+  margin: 0;
+  border-bottom: 2px solid #000;
+}
+
+dl.meta {
+  margin-top: 2em;
+  margin-bottom: 3em;
+}
+
+p.kudos {
+  padding-left: 8.3em;
+  background: url("https://64.media.tumblr.com/8a1f1ad5d469c9b8134deee4437fc77e/351ea6876b953561-5a/s2048x3072/a8639bf6484d8a73a6dab00974d6010bf70b04db.png");
+  background-size: 100px 112px;
+  background-repeat: no-repeat;
+  min-height: 112px;
+}
+
+#footer.region {
+  border-top: 5px solid #000;
+  background: url("https://64.media.tumblr.com/7d5c1b410a36edad2a23458e77ceeda2/351ea6876b953561-f1/s2048x3072/8f537eb1aef987cfa87f8281191ec1ae3c01450e.png");
+  background-size: 100px 112px;
+  background-position-x: right;
+  background-position-y: bottom;
+  background-repeat: no-repeat;
+}
+
+.splash .favorite li:nth-of-type(even) a {
+  background: linear-gradient(180deg,rgba(31, 22, 7, 1) 0%, rgba(57, 41, 19, 1) 100%);
+}
+
+.splash .favorite li:nth-of-type(odd) a {
+  background: linear-gradient(180deg,rgba(37, 24, 13, 1) 0%, rgba(0, 0, 0, 1) 100%);
+}
+
+form dl,
+fieldset dl dl,
+fieldset fieldset fieldset,
+fieldset fieldset dl dl,
+dd.hideme,
+form blockquote.userstuff {
+  background: transparent;
+  border: 1px solid #000;
+}
+
+.skins .primary .icon,
+.index .picture .icon {
+  position: absolute;
+  margin-left: 0.5em;
+  top: 0;
+}
+
+.tag .primary .icon {
+  position: absolute;
+  margin-left: 0.5em;
+  top: 0;
+}
+
+.admin .primary .icon {
+  display: none;
+}
+
+.news.admin.home {
+  background: url("https://64.media.tumblr.com/b079bd961dfd0628333f1768e3a03f5d/02806509b7f30925-52/s1280x1920/114e6609518bb116e17f3e077864bb11d54ed1f9.png");
+  background-position-x: right;
+  background-position-y: 400px;
+  background-repeat: no-repeat;
+  background-size: 20%;
+}
+
+#main.system.docs.region {
+  background: url("https://64.media.tumblr.com/2ce563ca5b5500fe32448375628469e3/2ce196a56653df39-c5/s2048x3072/170b021df6cb0613efeb35eb0656ff0d276bdfa6.png");
+  background-position-x: right;
+  background-position-y: bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.comment .icon .visitor {
+  background: url("https://64.media.tumblr.com/22ba893cb0f1bfae7890dd780e29d02d/463a436bddef7103-09/s640x960/f387f7bab1a6f518ca9f00773d98c76f6baebef4.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#dashboard,
+#dashboard.own {
+  border-bottom: 10px solid #000;
+  border-top: 10px solid #000;
+}
+
+.dashboard .own {
+  border: 2px solid #000;
+  background: rgba(0,0,0,0.2);
+}
+
+li.blurb {
+  border: 1px solid #000;
+  background-color: rgba(0, 0, 0, 0.20);
+}
+
+textarea::-webkit-scrollbar {
+  width: 14px;
+}
+
+textarea::-webkit-scrollbar-track {
+  background: #7e7157;
+}
+
+textarea::-webkit-scrollbar-thumb {
+  background: #a19373;
+  border-radius: 10px;
+}
+
+textarea::-webkit-scrollbar-thumb:hover {
+  background: #ddca9f;
+}
+
+ul.ui-autocomplete {
+  background: #0f0a05 !important;
+  border: 2px solid #785d43 !important;
+  box-shadow: 0 0 10px rgba(0,0,0,.8) !important;
+}
+
+.warnings .tag {
+  background: #1f1607;
+  color: #ccbb9f !important;
+  border: 1px solid #000;
+}
+
+.relationships .tag {
+  background: #33240a;
+  color: #ccbb9f !important;
+  border: 1px solid #000;
+}
+
+.characters .tag {
+  background: #614c29;
+  color: #ccbb9f !important;
+  border: 1px solid #000;
+}
+
+.freeforms .tag {
+  background: #453417;
+  color: #ccbb9f !important;
+  border: 1px solid #000;
+}
+
+.warnings a.tag:hover,
+.relationships a.tag:hover,
+.characters a.tag:hover,
+.freeforms a.tag:hover {
+  background: #ddca9f !important;
+  color: #000 !important;
+}
+
+ul.tags li.warnings:first-child:before {
+  content: "🃏🃏🃏 ";
+}
+
+.required-tags .rating-notrated,
+.required-tags .rating-general-audience,
+.required-tags .rating-teen,
+.required-tags .rating-mature,
+.required-tags .rating-explicit,
+.required-tags .warning-choosenotto,
+.required-tags .warning-no,
+.required-tags .warning-yes,
+.required-tags .category-femslash,
+.required-tags .category-het,
+.required-tags .category-homo,
+.required-tags .category-gen,
+.required-tags .category-multi,
+.required-tags .category-other,
+.required-tags .complete-no,
+.required-tags .complete-yes,
+.required-tags .external-work,
+#symbols-key dl img,
+#bookmark-symbols-key img,
+img[src$="/images/lockblue.png"] {
+  background-image: url("https://zerafinacss.github.io/ao3/imageset/bw.png");
+  background-size: 200px 835px;
+}
+
+#symbols-key dl img,
+#bookmark-symbols-key img {
+  width: 0 !important;
+  height: 0 !important;
+  padding: 25px 0 0 25px;
+}
+
+img[src$="/images/skins/iconsets/default/rating-notrated.png"] {
+  background-position: -150px 0px;
+}
+
+img[src$="/images/skins/iconsets/default/rating-general-audience.png"] {
+  background-position: -50px -25px;
+}
+
+img[src$="/images/skins/iconsets/default/rating-teen.png"] {
+  background-position: 0px -25px;
+}
+
+img[src$="/images/skins/iconsets/default/rating-mature.png"] {
+  background-position: -75px -25px;
+}
+
+img[src$="/images/skins/iconsets/default/rating-explicit.png"] {
+  background-position: -25px -25px;
+}
+
+img[src$="/images/skins/iconsets/default/category-femslash.png"] {
+  background-position: -25px 0px;
+}
+
+img[src$="/images/skins/iconsets/default/category-het.png"] {
+  background-position: -75px 0px;
+}
+
+img[src$="/images/skins/iconsets/default/category-homo.png"] {
+  background-position: 0px 0px;
+}
+
+img[src$="/images/skins/iconsets/default/category-gen.png"] {
+  background-position: -50px 0px;
+}
+
+img[src$="/images/skins/iconsets/default/category-multi.png"] {
+  background-position: -100px 0px;
+}
+
+img[src$="/images/skins/iconsets/default/category-other.png"] {
+  background-position: -125px 0px;
+}
+
+img[src$="/images/skins/iconsets/default/warning-choosenotto.png"] {
+  background-position: -125px -25px;
+}
+
+img[src$="/images/skins/iconsets/default/warning-no.png"] {
+  background-position: -50px -50px;
+}
+
+img[src$="/images/skins/iconsets/default/warning-yes.png"] {
+  background-position: -150px -25px;
+}
+
+img[src$="/images/skins/iconsets/default/warning-external-work.png"] {
+  background-position: -75px -50px;
+}
+
+img[src$="/images/skins/iconsets/default/complete-no.png"] {
+  background-position: -100px -25px;
+}
+
+img[src$="/images/skins/iconsets/default/complete-yes.png"] {
+  background-position: -175px -25px;
+}
+
+img[src$="/images/skins/iconsets/default/bookmark-rec.png"] {
+  background-position: -100px -50px;
+}
+
+img[src$="/images/skins/iconsets/default/bookmark-public.png"] {
+  background-position: -125px -50px;
+}
+
+img[src$="/images/skins/iconsets/default/bookmark-private.png"] {
+  background-position: -175px -50px;
+}
+
+img[src$="/images/skins/iconsets/default/bookmark-hidden.png"] {
+  background-position: -150px -50px;
+}
+
+img[src$="/images/lockblue.png"] {
+  padding: 15px 0 0 15px;
+  background-position: -155px -305px;
+}
+
+#greeting img[src$="/images/skins/iconsets/default/icon_user.png"] {
+  background-position: 0 -16.5px;
+}
+
+.comment img[src$="/images/skins/iconsets/default/icon_user.png"] {
+  padding: 55px 0 0 55px !important;
+  background-position: 0px -525px !important;
+}
+
+.filters,
+.filters legend,
+.filters label,
+.filters h3,
+.filters h4,
+.filters .heading {
+  color: #000000 !important;
+}
+
+.filters input,
+.filters select {
+  color: #000000 !important;
+}
+
+.filters dt,
+.filters dt button,
+.filters legend,
+.filters label,
+.filters h3,
+.filters h4,
+.filters .heading,
+.filters .heading a {
+  color: #000000 !important;
+}
+
+.filters input,
+.filters select {
+  color: #000000 !important;
+}
+
+#header {
+  height: 7em;
+}
+
+#header::after {
+  top: 8px;
+  right: 8px;
+  width: 130px;
+  height: 130px;
+}
+
+#greeting .menu {
+  width: 90% !important;
+  max-width: 16em !important;
+}
+
+#header .menu {
+  width: 90%;
+  max-width: 18em;
+}
+
+.home .header h2 {
+  margin-left: 20px;
+}
+
+.splash .news blockquote p:first-child {
+  padding-left: 52px;
+  background-size: 50px 40px;
+}
+
+.social.module p {
+  padding-left: 42px;
+  background-size: 33px 33px;
+}
+
+.comment .userstuff {
+  padding-right: 34px;
+  padding-bottom: 25px;
+  background-size: 37px 50px;
+}
+
+p.kudos {
+  padding-left: 4.2em;
+  background-size: 50px 56px;
+  min-height: 56px;
+}
+
+#workskin p:first-child:first-letter,
+li.blurb .summary p:first-child:first-letter {
+  font-size: 40px;
+  line-height: 34px;
+  padding-right: 5px;
+}
+
+.news.admin.home {
+  background-size: 30%;
+  background-position-y: 250px;
+}
+
+.comment img[src$="/images/skins/iconsets/default/icon_user.png"] {
+  padding: 32px 0 0 32px !important;
+  background-position: 0px -300px !important;
+  background-size: contain !important;
+}
+
+#header {
+  height: 6em;
+}
+
+#header::after {
+  width: 90px;
+  height: 90px;
+}
+
+#header .menu,
+#greeting .menu {
+  max-width: 100%;
+}
